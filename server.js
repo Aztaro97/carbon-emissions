@@ -5,7 +5,7 @@ let bodyParser = require('body-parser');
 
 
 dotenv.config()
-let PORT = process.env.URL_PORT || 3000;
+let PORT = process.env.PORT || 3000;
 
 //  ENGINE TEMPLATE
 app.set('view engine', 'ejs')
